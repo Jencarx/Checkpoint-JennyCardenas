@@ -1,0 +1,50 @@
+   56  cd "2. Introducción a la informatica"/
+   57  ls
+   58  mkdir Checkpoint-JennyCardenas
+   59  ls
+   60  cd "Checkpoint-JennyCardenas"
+   61  git --version
+   62  git init
+   63  git remote add origin https://github.com/Jencarx/Checkpoint-JennyCardenas.git
+   64  git status
+   65  touch main.js index.html
+   66  git add .
+   67  git commit -m "commit 01 de JennyCardenas"
+   68  git status
+   69  git push origin main
+   70  git branch feature-feature
+   71  git branch
+   72  git checkout feature-feature
+   73  mkdir Hardware Software SeguridadInformatica
+   74  ls
+   75  cd Hardware/
+   76  touch resumen.txt
+   77  cd ..
+   78  cd SeguridadInformatica/
+   79  touch resumen.txt
+   80  cd ..
+   81  cd Software/
+   82  touch resumen.txt
+   83  cd ..
+   84  cd ..
+   85  ls
+   86  cd Checkpoint-JennyCardenas/
+   87  git add .
+   88  git commit -m "commit 02 de JennyCardenas"
+   89  git push origin feature
+   90  git push origin feature-feature
+   91  git merge feature-feature
+   92  git merge main
+   93  cd ..
+   94  ls
+   95  cd"Checkpoint-JennyCardenas/"
+   96  cd Checkpoint-JennyCardenas/
+   97  git merge main
+   98  git checkout main
+   99  ls
+  100  mv main.js resumenHardware.txt
+  101  ls
+  102  mv index.html resumenSoftware.txt
+  103  ls
+  104  touch comandos.txt
+  105  history

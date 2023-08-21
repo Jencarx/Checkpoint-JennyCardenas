@@ -1,0 +1,3 @@
+Navegador web: OperaGX
+Antivirus: Microsoft Defender
+Videojuego: Genshin Impact
